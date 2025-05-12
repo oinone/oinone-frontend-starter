@@ -22,6 +22,17 @@ npm run build
 
 > 方法 1 的优先级高于方法 2，如果想要方法 2 生效，需要把方法 1 的配置删除
 
+### 静态资源配置
+
+```
+├── public
+└────static.zip
+```
+
+解压 static.zip 到 public 目录下
+
+**建议将静态资源文件上传在 oss，然后将 .env 里面的`STATIC_IMG` 改成 oss 的地址**
+
 ### 目录结构
 
 ```
