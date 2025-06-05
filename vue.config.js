@@ -84,7 +84,7 @@ module.exports = {
     proxy: {
       '/pamirs': {
         changeOrigin: true,
-        target: 'http://sstest.oinone.top/' // 请求后端地址
+        target: 'http://192.168.0.0:8080' // 请求后端地址
       }
     }
   }
