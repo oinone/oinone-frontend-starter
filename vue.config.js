@@ -54,9 +54,9 @@ module.exports = {
           minSize: 3000000,
           maxInitialRequests: 5
         },
-        kunlun: {
+        oinone: {
           name: 'chunk-b',
-          test: /[\\/]node_modules[\\/]@kunlun[\\/]/,
+          test: /[\\/]node_modules[\\/]@oinone[\\/]/,
           priority: 2,
           chunks: 'initial',
           maxSize: 6000000,
